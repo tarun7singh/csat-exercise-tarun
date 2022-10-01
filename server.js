@@ -7,7 +7,7 @@ const path = require("path");
 const fs = require("fs");    
 
 const SERVER_PORT = 4000;
-const SERVER_HOST = "localhost";
+const SERVER_HOST = "localhost"
 
 server.use(express.urlencoded()); // to support URL-encoded bodies
 
